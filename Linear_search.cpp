@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void FindElement(int arr[], int n)
+bool FindElement(int arr[], int n)
 {
   int find;
   cout<<"enter the element to find: ";
@@ -9,20 +9,21 @@ void FindElement(int arr[], int n)
     {
       if(arr[i]==find)
       {
-        cout<<"element found at index "<<i<<endl;
-        break;
+        return 1;
       }
     }
+    return 0;
 }
 int main(){
   int size;
-  cout<<"enter the size of array: ";
-  cin>>size;
-  int num[10];
-  for(int i=0; i<size; i++)
-    {
-      cin>>num[i];
-    }
-  FindElement(num, size);
-  
+  cout << "enter the size of array";
+  cin >> size;
+  int num[10] = {3,1,2,4,6,5,7,9,8,10};
+  bool found = FindElement(num, size);
+  if(found){
+    cout << "Element is Present" << endl;
+  }
+  else{
+    cout << "Element is not Present" << endl;
+  }
 }
