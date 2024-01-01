@@ -1,1 +1,2 @@
-#It is my DSA Ripo where I post my DSA Answers on a daily basis.
+# **Data Structures and Algorithms Practice**
+Welcome to my DSA (Data Structures and Algorithms) practice repository! This repository is dedicated to solving DSA problems and tracking my progress as I advance in my understanding of algorithms and data structures.
