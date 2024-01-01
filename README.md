@@ -1,28 +1,18 @@
 
-# Movie Recommendation System
+# Data Structures and Algorithms Practice
+
+Welcome to my DSA (Data Structures and Algorithms) practice repository! This repository is dedicated to solving DSA problems and tracking my progress as I advance in my understanding of algorithms and data structures.
+
 
 ## Introduction
-This is a movie recommendation system that suggests movies to users based on their preferences and viewing history. The system employs collaborative filtering techniques to provide personalized recommendations.
 
-## Features
-- Recommendation Algorithm: The system uses Content Based Algorithm to suggest movies based on user search.
-- Dashboard: A user-friendly dashboard where users can view their recommended movie.
+This repository is a record of my journey as I tackle DSA problems. I have organized the solutions by difficulty, starting with easy problems and gradually moving on to more challenging ones. Each problem solution is accompanied by an explanation, providing insights into the thought process and approach used to solve it.
+## Acknowledgments
 
-
+I would like to express my gratitude to the online DSA communities and platforms that have provided valuable resources and challenges to enhance my skills.
 
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sanskarmishra479/movie_recommendation_system.git
-   cd movie_recommendation_system
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-    
+Happy Coding! 🚀
 ## Contact
 
 For Contact, email sanskarmishra479@gmail.com or follow on LinkedIn https://www.linkedin.com/in/sanskar1/.
