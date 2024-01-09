@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int FirstOcc(int arr[], int size, int key){
+int First(int arr[], int size, int key){
     int start = 0; 
     int end = size - 1;
     int mid = start + (end - start) / 2;
@@ -20,7 +20,7 @@ int FirstOcc(int arr[], int size, int key){
     }
     return ans;
 }
-int LastOcc(int arr[], int size, int key){
+int Last(int arr[], int size, int key){
     int start = 0; 
     int end = size - 1;
     int mid = start + (end - start) / 2;
@@ -43,8 +43,8 @@ int LastOcc(int arr[], int size, int key){
 int main(){
 
     int arr[10] = {2,4,6,6,6,6,6,8,10,12};
-    int Firstindex = FirstOcc(arr, 10, 6);
-    int Lastindex = LastOcc(arr, 10, 6);
+    int Firstindex = First(arr, 10, 6);
+    int Lastindex = Last(arr, 10, 6);
 
     cout<<"First OCC of 6 at index: "<<Firstindex<<endl;
     cout<<"Last occ of 6 at index: "<<Lastindex<<endl;
