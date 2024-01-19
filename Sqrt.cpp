@@ -1,4 +1,4 @@
-// It's return only int part of squre root of give number.
+// It's return only integer part of squre root of give number.
 #include<iostream>
 using namespace std;
 long long int BinarySearch(int num){
