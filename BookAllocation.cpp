@@ -11,7 +11,7 @@ bool IsPossible(int arr[], int n, int m, int mid){
         }
         else{
             studentCount++;
-            if(studentCount > m || arr[i] > m){
+            if(studentCount > m || arr[i] > mid){
                 return false;
             }
             pagesum = arr[i];
